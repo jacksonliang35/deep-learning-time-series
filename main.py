@@ -103,10 +103,25 @@ def run_quick_trial_all_algos(out_dir_root):
                     algos_to_run=algos_to_run,
                     test_run=True)
 
+def run_proj_stat(out_dir_root):
+    multi_seeds = [0]
+    ds_to_run = [
+                 "smd"
+                ]
+    algos_to_run = [
+                    "LSTM-ED_recon_all",
+                    ]
+    run_multi_seeds(out_dir_root=out_dir_root,
+                    multi_seeds=multi_seeds,
+                    ds_to_run=ds_to_run,
+                    algos_to_run=algos_to_run,
+                    test_run=False)
+
 
 if __name__ == "__main__":
     out_dir_root = os.path.join(os.getcwd(), "reports", "trial")
-    run_quick_trial_all_algos(out_dir_root)
+    # run_quick_trial_all_algos(out_dir_root)
     # run_quick_trial_5_ds(out_dir_root)
     # run_all_benchmarks(out_dir_root)
+    run_proj_stat(out_dir_root)
 
