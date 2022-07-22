@@ -1,6 +1,10 @@
 
 # Anomaly Detection on Time Series: An Evaluation of Deep Learning Methods
 
+This is the final project of STAT 556 Spring 2022.
+
+Group member: Anay Pattanaik and Yuchen Liang.
+
 The goal of this repository is to evaluate multivariate time-series anomaly detection algorithms on a common set of datasets discussed in the paper:
 
 A. Garg, W. Zhang, J. Samaran, R. Savitha and C. -S. Foo, "An Evaluation of Anomaly Detection and Diagnosis in Multivariate Time Series," in IEEE Transactions on Neural Networks and Learning Systems, doi: 10.1109/TNNLS.2021.3105827.
